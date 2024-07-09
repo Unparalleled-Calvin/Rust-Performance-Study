@@ -1,0 +1,1620 @@
+[
+    {
+        "name": "deno",
+        "url": "https://github.com/denoland/deno",
+        "num": 52,
+        "prs": [
+            {
+                "href": "https://github.com/denoland/deno/pull/21192",
+                "title": "fix(ext/node): add APIs perf_hook.performance",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/20829",
+                "title": "perf(lsp): optimize formatting minified files",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/20809",
+                "title": "perf(ext/http): Object pooling for HttpRecord and HeaderMap",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/20802",
+                "title": "perf(lsp): fix redundant file reads",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/20670",
+                "title": "perf(test): use fast ops for deno test register",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/20669",
+                "title": "perf(test): use core.currentUserCallSite",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/20649",
+                "title": "perf(ext/streams): optimize streams",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/20191",
+                "title": "perf(ext/event): always set timeStamp to 0",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/20163",
+                "title": "perf(ext/node): optimize http headers",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/19997",
+                "title": "perf: faster node globals access in cjs",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/19881",
+                "title": "refactor(ext/http): Use const thread-local initializer for slightly better perf",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/19729",
+                "title": "perf(node/async_hooks): optimize AsyncLocalStorage",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/19648",
+                "title": "test(ext/node): add perf_hooks_test",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/19454",
+                "title": "perf(ext/ffi): Avoid receiving on FFI async work channel when no UnsafeCallback exists",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/19452",
+                "title": "perf: optimize ByteString checks, hoist server rid getter",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/19384",
+                "title": "perf(http): avoid flattening http headers",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/19336",
+                "title": "perf(ext/http): Use flat list of headers for multiple set/get methods",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/18904",
+                "title": "perf(ext/websocket): use internal dispatch for msg events",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/18862",
+                "title": "perf(ext/websocket): various performance improvements",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/18834",
+                "title": "perf(ext/http): optimize for zero or one-packet response streams",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/18718",
+                "title": "Revert \"perf(core): immediately schedule another tick if there are un\u2026",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/18507",
+                "title": "perf(ext/websocket): special op for sending text data frames",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/18506",
+                "title": "perf(ext/websocket): special op for sending binary data frames",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/18083",
+                "title": "perf(core): over-allocate in ModuleMap when running from snapshot",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/18082",
+                "title": "perf: don't add unload event listener",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/17741",
+                "title": "perf(ext/ffi): Revert UTF-8 validity check from getCString",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/17727",
+                "title": "perf(http): remove allocations checking upgrade and connection header values",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/17698",
+                "title": "perf: disable fetching graph cache info except for deno info",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/17616",
+                "title": "perf(core): speed up promise hook dispatch",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/17480",
+                "title": "Revert \"perf(ext/websocket): optimize socket.send (#16320)\"",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/16660",
+                "title": "Reland \"perf(ext/flash): optimize response streaming\"",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/16365",
+                "title": "perf(ext/websocket): skip Events constructor checks",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/16360",
+                "title": "perf(serde_v8):  serde_v8::StringOrBuffer return JS ArrayBuffer instead of Uint8Array",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/16320",
+                "title": "perf(ext/websocket): optimize socket.send",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/16316",
+                "title": "perf(ext/web): optimize timer cancellation",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/16284",
+                "title": "perf(ext/flash): optimize path response streams",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/15935",
+                "title": "perf(ext/console): break on iterableLimit & better sparse array handling",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/15723",
+                "title": "perf(ext/web): flatten op arguments for text_encoding",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/14945",
+                "title": "perf(ext/ffi): optimize synchronous calls",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/14619",
+                "title": "perf(core): optimize encode on large strings",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/13981",
+                "title": "perf(web): optimize Blob.text and Blob.arrayBuffer",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/13979",
+                "title": "perf(web): use DOMString for BlobParts",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/13868",
+                "title": "perf(core): micro-optimize OpsTracker",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/12310",
+                "title": "perf(core): use opcall() directly",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/12285",
+                "title": "perf(webidl): inline ResponseInit converter",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/12245",
+                "title": "perf(fetch): optimize newInnerRequest blob url check",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/12057",
+                "title": "perf(runtime/fs): optimize readFile by using a single large buffer",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/11765",
+                "title": "perf(ext/url): optimize UrlParts op serialization",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/10150",
+                "title": "perf: lazy header instantiation for HTTP requests",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/7823",
+                "title": "perf(cli/console): Don't add redundant ANSI codes",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/6499",
+                "title": "perf(std/hash): optimize for speed (O3)",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/4309",
+                "title": "perf: use Object instead of Map for promise table",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "rust",
+        "url": "https://github.com/rust-lang/rust",
+        "num": 13,
+        "prs": [
+            {
+                "href": "https://github.com/rust-lang/rust/pull/117062",
+                "title": "Update rustc-perf version",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/116195",
+                "title": "rustdoc: speed up processing of cross-crate fns to fix a perf regression",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/115543",
+                "title": "Retry download of rustc-perf in opt-dist",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/115541",
+                "title": "Mirror the rustc-perf source",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/104410",
+                "title": "Fix perf regression by correctly matching keywords",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/100033",
+                "title": "Don't cancel try-perf branch if 'outdated'",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/99988",
+                "title": "Allow try-perf branch to run in CI",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/99868",
+                "title": "bump rustc-perf commit",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/95724",
+                "title": "CI: update rustc-perf version used in CI and also the corresponding PGO benchmarks",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/90363",
+                "title": "Improve perf measurements of build_extern_trait_impl",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/87431",
+                "title": "implement fold() on array::IntoIter to improve flatten().collect() perf",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/74600",
+                "title": "Enable perf try builder",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/53825",
+                "title": "[beta] const eval perf regression fix",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "tauri",
+        "url": "https://github.com/tauri-apps/tauri",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/tauri-apps/tauri/pull/548",
+                "title": "chore(workflow): publish perf and prettying",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "rustdesk",
+        "url": "https://github.com/rustdesk/rustdesk",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "alacritty",
+        "url": "https://github.com/alacritty/alacritty",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "bat",
+        "url": "https://github.com/sharkdp/bat",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "rustlings",
+        "url": "https://github.com/rust-lang/rustlings",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "ChatGPT",
+        "url": "https://github.com/lencx/ChatGPT",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "ripgrep",
+        "url": "https://github.com/BurntSushi/ripgrep",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/BurntSushi/ripgrep/pull/768",
+                "title": "update bytecount to improve perf with current rustc",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "meilisearch",
+        "url": "https://github.com/meilisearch/meilisearch",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "awesome-rust",
+        "url": "https://github.com/rust-unofficial/awesome-rust",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "starship",
+        "url": "https://github.com/starship/starship",
+        "num": 4,
+        "prs": [
+            {
+                "href": "https://github.com/starship/starship/pull/1777",
+                "title": "perf(git_status): Improved git_status module performance",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/starship/starship/pull/1755",
+                "title": "perf(init): Use random for session-key instead of invoking starship session",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/starship/starship/pull/803",
+                "title": "perf: hg_branch, fix: show active branch not previous branch",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/starship/starship/pull/341",
+                "title": "perf: Don't build git2 with ssh support",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "sway",
+        "url": "https://github.com/FuelLabs/sway",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "fd",
+        "url": "https://github.com/sharkdp/fd",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/sharkdp/fd/pull/1420",
+                "title": "Use a patched version of ignore for perf improvements",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "vaultwarden",
+        "url": "https://github.com/dani-garcia/vaultwarden",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "swc",
+        "url": "https://github.com/swc-project/swc",
+        "num": 25,
+        "prs": [
+            {
+                "href": "https://github.com/swc-project/swc/pull/8241",
+                "title": "perf(atoms): Update hstr to make global APIs fast",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/8231",
+                "title": "perf(es/lexer): Remove needless clones of Rc<RefCell<AtomStore>>",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/7490",
+                "title": "perf(es): Use &dyn Comments for jsx and TypeScript",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/7489",
+                "title": "perf(es): Use &dyn Comments to reduce binary size",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/7058",
+                "title": "perf(es/lexer): Use jump table for read_token",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/7043",
+                "title": "perf(es/lexer): Use string searcher for lexing line comments",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/6840",
+                "title": "perf(es/minifier): check whether a function is pure with O(1) cost",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/6599",
+                "title": "perf(css/codegen): Reduce allocations",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/6580",
+                "title": "perf(css/minifier): Remove more redundant clones",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/6313",
+                "title": "fix(html/parser): perf + refactor",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/6213",
+                "title": "perf(html/parser): small improvement",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/6135",
+                "title": "perf(atoms): Use thin pointer for Atom",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/6019",
+                "title": "perf(swc_common):split-hygine-data",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/5808",
+                "title": "perf(css/parser): Use ascii operations",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/5751",
+                "title": "perf(es/minifier): Improve codegen of name mangler",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/5750",
+                "title": "perf(es/minifier): Cache the list of bindings for DCE",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/5732",
+                "title": "perf(es/minifier): Make rename operator parallel",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/4934",
+                "title": "perf(html/parser): improve",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/4791",
+                "title": "perf(common): Use jemalloc for linux",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/4680",
+                "title": "perf(common): Improve performance of StringInput",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/4217",
+                "title": "perf(es/minifier): Add fast-path for sequences pass",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/3988",
+                "title": "perf(es/minifier): Merge hashmap for scoping before checking",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/3902",
+                "title": "perf(es/parser): Improve performance by adjusting inlining",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/3726",
+                "title": "perf(es/parser): Reduce usage of generics to reduce binary size",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/2318",
+                "title": "perf(ecmascript/parser): avoid string re-allocation",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "lapce",
+        "url": "https://github.com/lapce/lapce",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/lapce/lapce/pull/1753",
+                "title": "Limit search response size to avoid crash/perf issues",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "bevy",
+        "url": "https://github.com/bevyengine/bevy",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "nushell",
+        "url": "https://github.com/nushell/nushell",
+        "num": 2,
+        "prs": [
+            {
+                "href": "https://github.com/nushell/nushell/pull/6710",
+                "title": "nu-table: Check perf improvements",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/nushell/nushell/pull/4412",
+                "title": "turn down the perf volume a bit",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "influxdb",
+        "url": "https://github.com/influxdata/influxdb",
+        "num": 4,
+        "prs": [
+            {
+                "href": "https://github.com/influxdata/influxdb/pull/22068",
+                "title": "build: replace general perf tests with aggregate tests, refactor script",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/influxdata/influxdb/pull/17521",
+                "title": "perf: TableGraphTable: tweak rendering internal state",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/influxdata/influxdb/pull/16024",
+                "title": "perf(storage/reads): remove the duplicate filter",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/influxdata/influxdb/pull/14565",
+                "title": "Perf/hoist bucket lookups",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "helix",
+        "url": "https://github.com/helix-editor/helix",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "fuel-core",
+        "url": "https://github.com/FuelLabs/fuel-core",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "tools",
+        "url": "https://github.com/rome/tools",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/rome/tools/pull/3104",
+                "title": "perf(rome_formatter): Improve Printer source map performance",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "turbo",
+        "url": "https://github.com/vercel/turbo",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/vercel/turbo/pull/6405",
+                "title": "reenable perf optimization, fix race condition",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "surrealdb",
+        "url": "https://github.com/surrealdb/surrealdb",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "firecracker",
+        "url": "https://github.com/firecracker-microvm/firecracker",
+        "num": 8,
+        "prs": [
+            {
+                "href": "https://github.com/firecracker-microvm/firecracker/pull/4237",
+                "title": "test(perf): omit randwrite test for vhost-user-blk",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/firecracker-microvm/firecracker/pull/4116",
+                "title": "chore(perf): updated m6a vsock_throughput perf",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/firecracker-microvm/firecracker/pull/3126",
+                "title": "[CI][perf] update vsock baselines",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/firecracker-microvm/firecracker/pull/3089",
+                "title": "tests: update net tput perf baselines",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/firecracker-microvm/firecracker/pull/2984",
+                "title": "Remove leftover block perf config",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/firecracker-microvm/firecracker/pull/2904",
+                "title": "adjust parse_baselines to new perf framework",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/firecracker-microvm/firecracker/pull/2867",
+                "title": "io_uring: mark as dev preview and add perf documentation",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/firecracker-microvm/firecracker/pull/2786",
+                "title": "[CI]: Fix snapshot perf test",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "exa",
+        "url": "https://github.com/ogham/exa",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "tokio",
+        "url": "https://github.com/tokio-rs/tokio",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/tokio-rs/tokio/pull/2198",
+                "title": "perf: Use advance over split_to when we don't need the data",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "typst",
+        "url": "https://github.com/typst/typst",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "comprehensive-rust",
+        "url": "https://github.com/google/comprehensive-rust",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "Rocket",
+        "url": "https://github.com/SergioBenitez/Rocket",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "polars",
+        "url": "https://github.com/pola-rs/polars",
+        "num": 35,
+        "prs": [
+            {
+                "href": "https://github.com/pola-rs/polars/pull/12403",
+                "title": "perf(python): make 1D numpy to polars conversion zero-copy for numeric data",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/11783",
+                "title": "perf(python): Improve DataFrame.get_column performance by ~35%",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/11596",
+                "title": "perf(rust, python): use try_binary_elementwise over try_binary_elementwise_values",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/11565",
+                "title": "perf: skip empty chunks in concat",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/11544",
+                "title": "perf: improve sparse sample performance",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/11478",
+                "title": "perf(rust, python): early return in replace_time_zone if target and source time zones match",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/11263",
+                "title": "perf(python): faster init from pydantic models that have a small number of fields, and support direct init from SQLModel data (often used with FastAPI)",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/11183",
+                "title": "perf: Using cache for str.contains regex compilation",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/10713",
+                "title": "perf(rust, python): parse time zones outside of downcast_iter() in replace_time_zone",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/9853",
+                "title": "perf(python): Use pyo3::intern to avoid needlessly recreating PyString",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/9568",
+                "title": "perf(rust, python): optimize n_unique for integers",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/9452",
+                "title": "perf(python): further optimize datetime conversion",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/8899",
+                "title": "perf(python): improve performance of align_frames, and add new alignment option",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/8758",
+                "title": "perf(rust, python): change default row-group size",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/8613",
+                "title": "perf(python): avoid potentially redundant casts on Series init",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/8473",
+                "title": "perf(rust, python): less naive count",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/8382",
+                "title": "perf(rust, python): improve materialization of huge cardinality group tuples",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/8352",
+                "title": "perf(python): ~15% speedup for timestamp \u2192 python time conversion",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/7897",
+                "title": "perf(rust, python): don't re-allocate groups in sorted to_dummies",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/7678",
+                "title": "perf(rust, python): implement top-k optimization",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/7527",
+                "title": "perf(python): extend ultrafast constant-value frame init to temporal types (over 1,000x speedup)",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/7501",
+                "title": "perf(rust, python): use atoi in favor of lexical in strptime -25%",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/7492",
+                "title": "perf(rust, python): csv-file use fast-float for csv float parsing",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/7186",
+                "title": "perf(rust, python): improve perf of multi-args exprs in groupby context",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/7039",
+                "title": "perf(rust, python): optimize 'arg_where'",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/5977",
+                "title": "perf(rust, python): ensure set_at_idx is O(1)",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/5728",
+                "title": "perf(rust, python): set_sorted flag when creating from literal",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/5665",
+                "title": "perf: update_arrow to land parquet reading improvements",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/5575",
+                "title": "perf(rust, python): improve streaming primitve groupby",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/5172",
+                "title": "perf(rust, python):  improve pivot performance by using faster series\u2026",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/5106",
+                "title": "perf(python): take advantage of sorted join for frame alignment",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/5066",
+                "title": "perf(rust): do not rechunk left joins",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/5032",
+                "title": "perf(rust, python): Prune unneeded projections",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/5029",
+                "title": "perf(rust,python): Improve predicate pushdown + with_columns",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/4428",
+                "title": "perf[rust]: reuse allocated buffer if available in window perfect sort",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "iced",
+        "url": "https://github.com/iced-rs/iced",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "ruff",
+        "url": "https://github.com/astral-sh/ruff",
+        "num": 2,
+        "prs": [
+            {
+                "href": "https://github.com/astral-sh/ruff/pull/5825",
+                "title": "perf(formatter): Improve is_expression_parenthesized performance",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/astral-sh/ruff/pull/5811",
+                "title": "perf: only compute start offset for overlong lines",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "xi-editor",
+        "url": "https://github.com/xi-editor/xi-editor",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "rust-course",
+        "url": "https://github.com/sunface/rust-course",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "Pake",
+        "url": "https://github.com/tw93/Pake",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "delta",
+        "url": "https://github.com/dandavison/delta",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "actix-web",
+        "url": "https://github.com/actix/actix-web",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "sonic",
+        "url": "https://github.com/valeriansaliou/sonic",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "v86",
+        "url": "https://github.com/copy/v86",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "relay",
+        "url": "https://github.com/facebook/relay",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "Rust",
+        "url": "https://github.com/TheAlgorithms/Rust",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "hyperfine",
+        "url": "https://github.com/sharkdp/hyperfine",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "egui",
+        "url": "https://github.com/emilk/egui",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "fuels-rs",
+        "url": "https://github.com/FuelLabs/fuels-rs",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "diem",
+        "url": "https://github.com/diem/diem",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/diem/diem/pull/8292",
+                "title": "[cluster-test] Added perf measurement test",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "wasmer",
+        "url": "https://github.com/wasmerio/wasmer",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "cube",
+        "url": "https://github.com/cube-js/cube",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "RustPython",
+        "url": "https://github.com/RustPython/RustPython",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "difftastic",
+        "url": "https://github.com/Wilfred/difftastic",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "spotify-tui",
+        "url": "https://github.com/Rigellute/spotify-tui",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "anki",
+        "url": "https://github.com/ankitects/anki",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "coreutils",
+        "url": "https://github.com/uutils/coreutils",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/uutils/coreutils/pull/1842",
+                "title": "Revert #1571 \u201cperf/factor ~ deduplicate divisors\u201d",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "mdBook",
+        "url": "https://github.com/rust-lang/mdBook",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "vector",
+        "url": "https://github.com/vectordotdev/vector",
+        "num": 4,
+        "prs": [
+            {
+                "href": "https://github.com/vectordotdev/vector/pull/11239",
+                "title": "chore: Add 'perf' feature flag on regex crate",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/vectordotdev/vector/pull/3655",
+                "title": "perf(http sink): Increase rate_limit_num to its maximum",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/vectordotdev/vector/pull/2325",
+                "title": "perf(tokenizer transform): Cache paths for parsed fields",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/vectordotdev/vector/pull/1290",
+                "title": "perf(metric data model): Performance optimisations in metric buffer",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "dioxus",
+        "url": "https://github.com/DioxusLabs/dioxus",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "gitui",
+        "url": "https://github.com/extrawurst/gitui",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "zellij",
+        "url": "https://github.com/zellij-org/zellij",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "just",
+        "url": "https://github.com/casey/just",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "qdrant",
+        "url": "https://github.com/qdrant/qdrant",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "fnm",
+        "url": "https://github.com/Schniz/fnm",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "tikv",
+        "url": "https://github.com/tikv/tikv",
+        "num": 3,
+        "prs": [
+            {
+                "href": "https://github.com/tikv/tikv/pull/8618",
+                "title": "storage: Add perf statistics for scan detail (#8510)",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/tikv/tikv/pull/8266",
+                "title": "Enable perf in store.fsm and apply.fsm for rocksdb",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/tikv/tikv/pull/8015",
+                "title": "Add metric for perf context",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "tree-sitter",
+        "url": "https://github.com/tree-sitter/tree-sitter",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/tree-sitter/tree-sitter/pull/2637",
+                "title": "perf: cache the current language configuration to lookup for later use",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "carbonyl",
+        "url": "https://github.com/fathyb/carbonyl",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "navi",
+        "url": "https://github.com/denisidoro/navi",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "wasmtime",
+        "url": "https://github.com/bytecodealliance/wasmtime",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/bytecodealliance/wasmtime/pull/7221",
+                "title": "Update examples-profiling-perf.md",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "book",
+        "url": "https://github.com/rust-lang/book",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "axum",
+        "url": "https://github.com/tokio-rs/axum",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "czkawka",
+        "url": "https://github.com/qarmin/czkawka",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "rust-analyzer",
+        "url": "https://github.com/rust-lang/rust-analyzer",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "hyper",
+        "url": "https://github.com/hyperium/hyper",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/hyperium/hyper/pull/1725",
+                "title": "perf(http1): implement an adaptive read buffer strategy",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "tabby",
+        "url": "https://github.com/TabbyML/tabby",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "leptos",
+        "url": "https://github.com/leptos-rs/leptos",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "zoxide",
+        "url": "https://github.com/ajeetdsouza/zoxide",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "lemmy",
+        "url": "https://github.com/LemmyNet/lemmy",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "clap",
+        "url": "https://github.com/clap-rs/clap",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/clap-rs/clap/pull/4194",
+                "title": "perf(assert): Don't make release pay the cost",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "static-analysis",
+        "url": "https://github.com/analysis-tools-dev/static-analysis",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "sniffnet",
+        "url": "https://github.com/GyulyVGC/sniffnet",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "atuin",
+        "url": "https://github.com/atuinsh/atuin",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "universal-android-debloater",
+        "url": "https://github.com/0x192/universal-android-debloater",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "rust-raspberrypi-OS-tutorials",
+        "url": "https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "zola",
+        "url": "https://github.com/getzola/zola",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "diesel",
+        "url": "https://github.com/diesel-rs/diesel",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "cargo",
+        "url": "https://github.com/rust-lang/cargo",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/rust-lang/cargo/pull/4891",
+                "title": "Try to fix a perf regression by updating log",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "lsd",
+        "url": "https://github.com/lsd-rs/lsd",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/lsd-rs/lsd/pull/729",
+                "title": "perf: reduces the binary size and improves the performance",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "py-spy",
+        "url": "https://github.com/benfred/py-spy",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "RustScan",
+        "url": "https://github.com/RustScan/RustScan",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "wezterm",
+        "url": "https://github.com/wez/wezterm",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "neovide",
+        "url": "https://github.com/neovide/neovide",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "tui-rs",
+        "url": "https://github.com/fdehau/tui-rs",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "solana",
+        "url": "https://github.com/solana-labs/solana",
+        "num": 25,
+        "prs": [
+            {
+                "href": "https://github.com/solana-labs/solana/pull/29551",
+                "title": "chore: increase stable-perf timeout_in_minutes to 35",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/26754",
+                "title": "insert perf improvement on bucket map",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/26352",
+                "title": "Create const &strs for rocksdb perf write operation names",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/26351",
+                "title": "Make report_rocksdb_read_perf() to take a operation name.",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/25100",
+                "title": "(LedgerStore) Report total nanos and downsize the perf metric for RocksDB read/write",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/25093",
+                "title": "(LedgerStore) Rate-limit RocksDB perf sample by a minimum time interval",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/25043",
+                "title": "(LedgerStore) Change perf_samples_counter from Arc<AtomicUsize> to AtomicUsize",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/24684",
+                "title": "(LedgerStore) Improve RocksDB perf metric samples",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/24682",
+                "title": "(LedgerStore) Hidden validator argument for RocksDB perf samples",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/23797",
+                "title": "Increased timeout limit of coverage and stable-perf by 10 mins each",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/22315",
+                "title": "perf: skip updating already cached executors if unmodified (backport #22300)",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/22300",
+                "title": "perf: skip updating already cached executors if unmodified",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/20638",
+                "title": "AcctIdx: support unref first class for perf",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/10436",
+                "title": "Lower perf counter level from warn (bp #10428)",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/10428",
+                "title": "Lower perf counter level from warn",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/4730",
+                "title": "fetch-perf-libs.sh: Defer CUDA selection to env.sh, also always create env.sh",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/4396",
+                "title": "Tweaks to real PoH based on perf testing",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/4385",
+                "title": "Bump perf libs version to fix out buffer sizing",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/3689",
+                "title": "net/: Set warn log level only for perf testnets",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/2672",
+                "title": "ci/test-stable-perf.sh:  Disable BPF tests temporarily",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/1240",
+                "title": "Add perf counters for record/write stages",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/1056",
+                "title": "Fix sig verify counters to be unique and tweak perf counters",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/818",
+                "title": "Run localnet-sanity in test-stable-perf",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/337",
+                "title": "Fix json perf counter print and add script to generate a chart",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/304",
+                "title": "Fix args in validator script, readme version, client-demo perf print",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "Infinite-Storage-Glitch",
+        "url": "https://github.com/DvorakDwarf/Infinite-Storage-Glitch",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "slint",
+        "url": "https://github.com/slint-ui/slint",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "sqlx",
+        "url": "https://github.com/launchbadge/sqlx",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "neon",
+        "url": "https://github.com/neondatabase/neon",
+        "num": 6,
+        "prs": [
+            {
+                "href": "https://github.com/neondatabase/neon/pull/5762",
+                "title": "Remove outdated and flaky perf test",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/neondatabase/neon/pull/3058",
+                "title": "test_perf_pgbench: switch to server-side data generation",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/neondatabase/neon/pull/2375",
+                "title": "Fix PERF_TEST_RESULT_CONNSTR for benchmark init",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/neondatabase/neon/pull/1265",
+                "title": "merge directories in git-upload instead of removing existing files for perf test result uploads",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/neondatabase/neon/pull/1253",
+                "title": "point perf results back from testing to master",
+                "files": 2
+            },
+            {
+                "href": "https://github.com/neondatabase/neon/pull/889",
+                "title": "save perf data for local ci runs",
+                "files": 2
+            }
+        ]
+    },
+    {
+        "name": "rust-clippy",
+        "url": "https://github.com/rust-lang/rust-clippy",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "candle",
+        "url": "https://github.com/huggingface/candle",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "pyo3",
+        "url": "https://github.com/PyO3/pyo3",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "xsv",
+        "url": "https://github.com/BurntSushi/xsv",
+        "num": 0,
+        "prs": []
+    }
+]

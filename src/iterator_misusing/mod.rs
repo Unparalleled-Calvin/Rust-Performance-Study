@@ -1,0 +1,2 @@
+pub mod allocating_in_flatmap_then_collecting;
+pub mod incorrect_iterator_type;

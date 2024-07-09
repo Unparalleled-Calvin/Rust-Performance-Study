@@ -1,0 +1,23 @@
+cargo-features = ["profile-rustflags"]
+
+[package]
+name = "Rust-Performance-Study"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rand = "^0.8.5"
+lazy_static = "^1.4.0"
+smallvec = "^1.13.2"
+paste = "^1.0"
+itoa = "^1.0"
+md5 = "^0.7"
+rayon = "^1.10"
+ahash = "0.8"
+fxhash = "0.2"
+
+[profile.release]
+opt-level = 2
+rustflags = ["-Aunused", "-Anon_snake_case", "-Anon_upper_case_globals", "-Anon-camel-case-types"]

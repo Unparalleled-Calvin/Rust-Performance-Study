@@ -1,0 +1,2343 @@
+[
+    {
+        "name": "deno",
+        "url": "https://github.com/denoland/deno",
+        "num": 3,
+        "prs": [
+            {
+                "href": "https://github.com/denoland/deno/pull/10865",
+                "title": "chore: optimize USVString webidl converters",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/6907",
+                "title": "Change release build flags to optimize for size",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/denoland/deno/pull/1561",
+                "title": "Minor optimization to repl.ts",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "rust",
+        "url": "https://github.com/rust-lang/rust",
+        "num": 132,
+        "prs": [
+            {
+                "href": "https://github.com/rust-lang/rust/pull/116047",
+                "title": "Add codegen test to guard against VecDeque optimization regression",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/114958",
+                "title": "ignore-cross-compile on optimization-remarks-dir-pgo test",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/114721",
+                "title": "Optimizing the rest of bool's Ord implementation",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/114119",
+                "title": "Optimize TokenKind::clone.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/114034",
+                "title": "Optimize AtomicBool for target that don't support byte-sized atomics",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/109483",
+                "title": "Optimize LazyCell size",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/109399",
+                "title": "rustdoc: Optimize impl sorting during rendering",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/108693",
+                "title": "Optimize DroplessArena arena allocation",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/108448",
+                "title": "binary_heap: Optimize Extend implementation.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/107717",
+                "title": "Optimize TyKind::eq.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/107638",
+                "title": "Optimize break patterns",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/105033",
+                "title": "sparc-struct-abi: work around new tail-call optimization",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/100693",
+                "title": "Add LLVM15-specific codegen test for try/?s that now optimize away",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/100022",
+                "title": "Optimize thread ID generation",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/98755",
+                "title": "Optimize Vec::insert for the case where index == len.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/98654",
+                "title": "An optimization for pest-2.1.3",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/97969",
+                "title": "Make -Cpasses= only apply to pre-link optimization",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/96895",
+                "title": "optimize insert_range method of IntervalSet",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/96815",
+                "title": "optimize promote_consts by caching the results of validate_local",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/95981",
+                "title": "Optimize <SourceFile as Decodable>::decode",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/95695",
+                "title": "Add codegen tests for additional cases where noop iterators get optimized away",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/95362",
+                "title": "Support arrays of zeros in Vec's __rust_alloc_zeroed optimization",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/95224",
+                "title": "Optimize RcInnerPtr::inc_strong()/inc_weak() instruction count",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/94776",
+                "title": "Optimize ascii::escape_default",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/94709",
+                "title": "Add link to closed PR for future optimizers of ChunkedBitSet relations",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/94112",
+                "title": "Optimize char_try_from_u32",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/93765",
+                "title": "Optimize heapsort",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/92012",
+                "title": "Make DefId repr(C), optimize big-endian field order",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/90996",
+                "title": "Optimize impl Hash for ObligationCauseData by not hashing ObligationCauseCode variant fields",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/90746",
+                "title": "Optimize pattern matching",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/89404",
+                "title": "Slightly optimize hash map stable hashing",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/89335",
+                "title": "Optimize is_sorted for Range and RangeInclusive",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/89322",
+                "title": "Reapply \"Remove optimization_fuel_crate from Session\"",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/88748",
+                "title": "Revert \"Remove optimization_fuel_crate from Session\"",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/88717",
+                "title": "Optimize VecDeque::append",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/88282",
+                "title": "Optimize BinaryHeap::extend from Vec",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/87052",
+                "title": "Optimize fmt::PadAdapter::wrap",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/86823",
+                "title": "Optimize unchecked indexing into chunks and chunks_mut",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/86179",
+                "title": "optimize Eq implementation for paths",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/85826",
+                "title": "Mention \"null pointer optimization\" in option docs.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/85737",
+                "title": "Enable Vec's calloc optimization for Option<NonZero>",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/85719",
+                "title": "Add inline attr to CString::into_inner so it can optimize out NonNull checks",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/84751",
+                "title": "str::is_char_boundary - slight optimization",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/83019",
+                "title": "core: disable ptr::swap_nonoverlapping_one's block optimization on SPIR-V.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/82562",
+                "title": "Optimize counting digits in line numbers during error reporting further",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/82248",
+                "title": "Optimize counting digits in line numbers during error reporting",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/81484",
+                "title": "Optimize decimal formatting of 128-bit integers",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/80755",
+                "title": "Optimize away some path lookups in the generic fs::copy implementation",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/80754",
+                "title": "Optimize away a fs::metadata call.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/80718",
+                "title": "Consistently avoid constructing optimized MIR when not doing codegen",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/80200",
+                "title": "Optimize DST field access",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/80035",
+                "title": "Optimization for bool's PartialOrd impl",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/79930",
+                "title": "Optimize BufWriter",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/78887",
+                "title": "Add comments to explain memory usage optimization",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/78736",
+                "title": "rustc_parse: Remove optimization for 0-length streams in collect_tokens",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/77525",
+                "title": "Enable RenameReturnPlace MIR optimization on mir-opt-level >= 2",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/75545",
+                "title": "std/sys/unix/time: make it easier for LLVM to optimize Instant subtraction.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/74562",
+                "title": "Remove branch in optimized is_ascii",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/72547",
+                "title": "Added a codegen test for a recent optimization for overflow-checks=on",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/72399",
+                "title": "Add fast-path optimization for Ipv4Addr::fmt",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/69050",
+                "title": "Micro-optimize the heck out of LEB128 reading and writing.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/68787",
+                "title": "Optimize core::ptr::align_offset (part 1)",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/65945",
+                "title": "Optimize long-linker-command-line test",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/65425",
+                "title": "Optimize BitIter",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/65293",
+                "title": "Optimize try_expand_impl_trait_type",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/65260",
+                "title": "Optimize LexicalResolve::expansion.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/64673",
+                "title": "Optimize try_eval_bits to avoid layout queries",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/62748",
+                "title": "Optimize RefCell read borrowing",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/61724",
+                "title": "core: use memcmp optimization for 128 bit integer slices",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/61339",
+                "title": "Optimize pointer alignment in utf8 validation",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/60700",
+                "title": "syntax_pos: Optimize symbol interner pre-filling slightly",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/59507",
+                "title": "Optimize indentation in the pretty printer.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/57394",
+                "title": "slightly optimize compiletest test collection",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/57027",
+                "title": "Optimize away a move",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/56548",
+                "title": "Optimized string FromIterator + Extend impls",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/56360",
+                "title": "Optimize local linkchecker program",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/55896",
+                "title": "Document optimizations enabled by FusedIterator",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/55739",
+                "title": "Consume optimization fuel from the MIR inliner",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/55703",
+                "title": "Update configure --help (via configure.py) to reflect decoupling of debug+optimize",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/53521",
+                "title": "syntax: Optimize some literal parsing",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/52997",
+                "title": "data_structures: make TinyList more readable and optimize remove(_)",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/52942",
+                "title": "Another SmallVec.extend optimization",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/52887",
+                "title": "Disable debug sections when optimization flags is set for LLD.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/51340",
+                "title": "Optimize layout calculations in HashMap",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/50958",
+                "title": "Micro-optimization on PR#50697",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/50932",
+                "title": "Optimize seen Predicate filtering.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/50525",
+                "title": "Optimize string handling in lit_token().",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/50398",
+                "title": "nano-optimization for memchr::repeat_byte",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/49496",
+                "title": "Add more vec![... ; n] optimizations",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/48065",
+                "title": "Apply optimization from #44355 to retain",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/47772",
+                "title": "Use the slice length to hint the optimizer about iter.position result",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/46050",
+                "title": "Optimize read_to_end.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/45524",
+                "title": "std: Optimize thread park/unpark implementation",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/45007",
+                "title": "Optimize comparison functions of Iterator",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/44613",
+                "title": "some low-hanging rustdoc optimizations",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/44355",
+                "title": "Optimize drain_filter",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/44272",
+                "title": "add test for not optimized pow with constant power",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/41940",
+                "title": "config.toml.example: point out that optimize = false won't speed up a full bootstrap",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/37573",
+                "title": "Add small-copy optimization for copy_from_slice",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/37267",
+                "title": "Optimize write_metadata.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/37108",
+                "title": "Optimize Substs::super_fold_with.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/36993",
+                "title": "Optimize ObligationForest's NodeState handling.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/36634",
+                "title": "[beta] Fix optimization regressions for operations on [x; n]-initialized arr\u2026",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/36527",
+                "title": "Optimize the parser's last token handling.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/36072",
+                "title": "Optimize BinaryHeap bounds checking",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/35444",
+                "title": "std: Optimize panic::catch_unwind slightly",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/33566",
+                "title": "[MIR trans] Optimize trans for biased switches",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/28338",
+                "title": "Optimize string comparison by using memcmp",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/25301",
+                "title": "Minor optimization for VecMap::split_off",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/24902",
+                "title": "Mention --enable-optimize for --enable-debug",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/24408",
+                "title": "configure: Don't disable optimizations when enabling debug",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/22681",
+                "title": "Optimize implementations of FromIterator and Extend for Vec",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/22200",
+                "title": "std: Optimize Vec::from_iter",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/21897",
+                "title": "Optimize rposition",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/21191",
+                "title": "Disable -C lto optimizations on opt_level=0",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/20391",
+                "title": "String::from_utf8_lossy reimplement minor optimization",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/18108",
+                "title": "Optimize BufferedReader::read for large buffers.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/16670",
+                "title": "libunicode: optimize char functions for ascii characters",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/15465",
+                "title": "Optimize String::push_byte()",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/15165",
+                "title": "Optimize out exhortations about being careful.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/14526",
+                "title": "Optimized HashMap for size. Added DefaultResizePolicy",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/14174",
+                "title": "Optimize common path of Once::doit",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/13618",
+                "title": "LruCache clean ups and optimizations",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/13451",
+                "title": "Document the nullable pointer optimization in the FFI guide",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/12119",
+                "title": "Expand the testing guide to cover optimizations, benchmarks and how to",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/11973",
+                "title": "Optimize u64_to_{le,be}_bytes",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/11498",
+                "title": "Optimize ebml::reader::vuint_at()",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/11448",
+                "title": "Optimize u64_from_be_bytes()",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/10424",
+                "title": "Optimize creation of buffered readers/writers",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/7475",
+                "title": "Optimize str::each_split_within when it is called with large limits",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/6881",
+                "title": "Better optimization pipeline",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust/pull/6876",
+                "title": "Optimize vec::from_elem with manual inlining",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "tauri",
+        "url": "https://github.com/tauri-apps/tauri",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/tauri-apps/tauri/pull/8137",
+                "title": "refactor: Optimize Simplified Chinese language content",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "rustdesk",
+        "url": "https://github.com/rustdesk/rustdesk",
+        "num": 3,
+        "prs": [
+            {
+                "href": "https://github.com/rustdesk/rustdesk/pull/5270",
+                "title": "Optimize Dockerfile",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rustdesk/rustdesk/pull/2892",
+                "title": "fix: --install cannot be invoke caused by singleton optimization",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rustdesk/rustdesk/pull/237",
+                "title": "Add some optimization options for Chinese developer in README-ZH.md.",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "alacritty",
+        "url": "https://github.com/alacritty/alacritty",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/alacritty/alacritty/pull/224",
+                "title": "Enabled Rustc's Link Time Optimization",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "bat",
+        "url": "https://github.com/sharkdp/bat",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "rustlings",
+        "url": "https://github.com/rust-lang/rustlings",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "ChatGPT",
+        "url": "https://github.com/lencx/ChatGPT",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "ripgrep",
+        "url": "https://github.com/BurntSushi/ripgrep",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "meilisearch",
+        "url": "https://github.com/meilisearch/meilisearch",
+        "num": 2,
+        "prs": [
+            {
+                "href": "https://github.com/meilisearch/meilisearch/pull/1781",
+                "title": "Optimize build size",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/meilisearch/meilisearch/pull/120",
+                "title": "Optimize the SumOfTypos criterion",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "awesome-rust",
+        "url": "https://github.com/rust-unofficial/awesome-rust",
+        "num": 2,
+        "prs": [
+            {
+                "href": "https://github.com/rust-unofficial/awesome-rust/pull/1072",
+                "title": "add oxipng, a PNG image optimizer",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-unofficial/awesome-rust/pull/203",
+                "title": "Added some optimization library and rust bindings to the list",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "starship",
+        "url": "https://github.com/starship/starship",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/starship/starship/pull/527",
+                "title": "build: Improve release binary optimization",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "sway",
+        "url": "https://github.com/FuelLabs/sway",
+        "num": 2,
+        "prs": [
+            {
+                "href": "https://github.com/FuelLabs/sway/pull/5254",
+                "title": "Optimizes type_engine.insert to be done inside if.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/FuelLabs/sway/pull/5226",
+                "title": "Optimize gas for AssetId::new() and AssetId::default() functions",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "fd",
+        "url": "https://github.com/sharkdp/fd",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/sharkdp/fd/pull/343",
+                "title": "Enable link-time optimization in release builds",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "vaultwarden",
+        "url": "https://github.com/dani-garcia/vaultwarden",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/dani-garcia/vaultwarden/pull/3092",
+                "title": "Optimize config loading messages",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "swc",
+        "url": "https://github.com/swc-project/swc",
+        "num": 3,
+        "prs": [
+            {
+                "href": "https://github.com/swc-project/swc/pull/5345",
+                "title": "fix(html/parser): small memory optimizations",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/3282",
+                "title": "fix(ecma/transforms/optimizer/jsonify): handle tpl when jsonify",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/swc-project/swc/pull/2193",
+                "title": "fix(es/transforms/base): Optimize hygiene",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "lapce",
+        "url": "https://github.com/lapce/lapce",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/lapce/lapce/pull/2035",
+                "title": "Small optimization when parsing settings",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "bevy",
+        "url": "https://github.com/bevyengine/bevy",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "nushell",
+        "url": "https://github.com/nushell/nushell",
+        "num": 5,
+        "prs": [
+            {
+                "href": "https://github.com/nushell/nushell/pull/10433",
+                "title": "optimize aarch64 when able",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/nushell/nushell/pull/10353",
+                "title": "Optimize use of range in std repeat",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/nushell/nushell/pull/8860",
+                "title": "optimize hash md5 for binary input",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/nushell/nushell/pull/8626",
+                "title": "stdlib: optimize test search and add better errors",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/nushell/nushell/pull/3914",
+                "title": "Fix time format without timezone bug. enhance,optimize suggest upgrade.",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "influxdb",
+        "url": "https://github.com/influxdata/influxdb",
+        "num": 14,
+        "prs": [
+            {
+                "href": "https://github.com/influxdata/influxdb/pull/17707",
+                "title": "fix(models): Optimize allocations in NewPoint()",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/influxdata/influxdb/pull/16073",
+                "title": "feat(query): enable optimized pivot push down rule",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/influxdata/influxdb/pull/13705",
+                "title": "feat(stdlib): enable the tag keys optimization for meta queries",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/influxdata/influxdb/pull/12708",
+                "title": "test(stdlib): skip failing window test due to new trigger optimization",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/influxdata/influxdb/pull/9895",
+                "title": "Restore \"Performance optimization suggestions\"",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/influxdata/influxdb/pull/9885",
+                "title": "Revert \"Performance optimization suggestions\"",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/influxdata/influxdb/pull/9836",
+                "title": "Performance optimization suggestions",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/influxdata/influxdb/pull/9835",
+                "title": "Performance optimization for testcode",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/influxdata/influxdb/pull/8496",
+                "title": "optimize point split, which reduce unnecessary allocate",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/influxdata/influxdb/pull/8305",
+                "title": "Optimize WAL segment reading",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/influxdata/influxdb/pull/6432",
+                "title": "Optimize tsm1.FloatDecoder",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/influxdata/influxdb/pull/5510",
+                "title": "Optimize ReducePercentile method",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/influxdata/influxdb/pull/3777",
+                "title": "Optimize Point.unescape",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/influxdata/influxdb/pull/3520",
+                "title": "Query performance optimization",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "helix",
+        "url": "https://github.com/helix-editor/helix",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/helix-editor/helix/pull/1423",
+                "title": "optimize lsp_pos_to_pos",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "fuel-core",
+        "url": "https://github.com/FuelLabs/fuel-core",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "tools",
+        "url": "https://github.com/rome/tools",
+        "num": 2,
+        "prs": [
+            {
+                "href": "https://github.com/rome/tools/pull/915",
+                "title": "Add optimization for single escaped markup with no columns",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rome/tools/pull/300",
+                "title": "Optimize lint suppression addition",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "turbo",
+        "url": "https://github.com/vercel/turbo",
+        "num": 2,
+        "prs": [
+            {
+                "href": "https://github.com/vercel/turbo/pull/5543",
+                "title": "Remove binary optimization step.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/vercel/turbo/pull/2491",
+                "title": "optimize chunks to be a smaller",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "surrealdb",
+        "url": "https://github.com/surrealdb/surrealdb",
+        "num": 2,
+        "prs": [
+            {
+                "href": "https://github.com/surrealdb/surrealdb/pull/2811",
+                "title": "Optimize time::from::nanos function.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/surrealdb/surrealdb/pull/1483",
+                "title": "Optimize the map builder macros",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "firecracker",
+        "url": "https://github.com/firecracker-microvm/firecracker",
+        "num": 2,
+        "prs": [
+            {
+                "href": "https://github.com/firecracker-microvm/firecracker/pull/937",
+                "title": "Net IO performance optimization",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/firecracker-microvm/firecracker/pull/258",
+                "title": "Enable link time optimization for release build",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "exa",
+        "url": "https://github.com/ogham/exa",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/ogham/exa/pull/598",
+                "title": "Optimize file table creation, fixes #484 as a side-effect",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "tokio",
+        "url": "https://github.com/tokio-rs/tokio",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/tokio-rs/tokio/pull/2888",
+                "title": "Optimize writing large buffers to windows stdio",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "typst",
+        "url": "https://github.com/typst/typst",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/typst/typst/pull/1053",
+                "title": "Optimize .count() > 1 check",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "comprehensive-rust",
+        "url": "https://github.com/google/comprehensive-rust",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/google/comprehensive-rust/pull/345",
+                "title": "Add a totally-unsafe example to show the discriminant optimization of Options.",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "Rocket",
+        "url": "https://github.com/SergioBenitez/Rocket",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "polars",
+        "url": "https://github.com/pola-rs/polars",
+        "num": 9,
+        "prs": [
+            {
+                "href": "https://github.com/pola-rs/polars/pull/11135",
+                "title": "test(rust): Fix rust test for logical plan optimizer for categoricals",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/10988",
+                "title": "refactor(python): Add private LazyFrame method for setting sink optimizations",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/10317",
+                "title": "fix(python): add cse to no_optimization in profile",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/7233",
+                "title": "feat(python): allow optimizations flags in describe_plan",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/5253",
+                "title": "feat(rust): Add newline to Aggregate..FROM describe_optimization_plan",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/4826",
+                "title": "feat[rust]: remove unneeded fast projections from optimized plan",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/605",
+                "title": "optimize sort().reverse to sort(reverse)",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/153",
+                "title": "Optimizer additions",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/pola-rs/polars/pull/149",
+                "title": "Optimizer: Separate recursion & matching, run until reaching fixed point",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "iced",
+        "url": "https://github.com/iced-rs/iced",
+        "num": 2,
+        "prs": [
+            {
+                "href": "https://github.com/iced-rs/iced/pull/1754",
+                "title": "[Optimization] Reduce unnecessary Component rebuilds",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/iced-rs/iced/pull/875",
+                "title": "This commit optimizes the algorithm used to convert rgba pixels into bgra pixels for SVG's.",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "ruff",
+        "url": "https://github.com/astral-sh/ruff",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/astral-sh/ruff/pull/5203",
+                "title": "Small binary size optimization",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "xi-editor",
+        "url": "https://github.com/xi-editor/xi-editor",
+        "num": 2,
+        "prs": [
+            {
+                "href": "https://github.com/xi-editor/xi-editor/pull/303",
+                "title": "Fix over-aggressive codepoint length optimization",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/xi-editor/xi-editor/pull/56",
+                "title": "Fix leaf optimization path in Node replace",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "rust-course",
+        "url": "https://github.com/sunface/rust-course",
+        "num": 2,
+        "prs": [
+            {
+                "href": "https://github.com/sunface/rust-course/pull/966",
+                "title": "optimize comments",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/sunface/rust-course/pull/265",
+                "title": "docs: Optimize sentence segmentation and word",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "Pake",
+        "url": "https://github.com/tw93/Pake",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "delta",
+        "url": "https://github.com/dandavison/delta",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "actix-web",
+        "url": "https://github.com/actix/actix-web",
+        "num": 6,
+        "prs": [
+            {
+                "href": "https://github.com/actix/actix-web/pull/2950",
+                "title": "minor optimization: reserve buffer once length is known (ws)",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/actix/actix-web/pull/2570",
+                "title": "optimize PathDeserializer",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/actix/actix-web/pull/1914",
+                "title": "optimize actix-http messages",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/actix/actix-web/pull/1902",
+                "title": "optimize ErrorHandler middleware",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/actix/actix-web/pull/1871",
+                "title": "optimize message pool release",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/actix/actix-web/pull/1831",
+                "title": "optimize bytes and string payload extractors",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "sonic",
+        "url": "https://github.com/valeriansaliou/sonic",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "v86",
+        "url": "https://github.com/copy/v86",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "relay",
+        "url": "https://github.com/facebook/relay",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "Rust",
+        "url": "https://github.com/TheAlgorithms/Rust",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/TheAlgorithms/Rust/pull/359",
+                "title": "optimize prime number algorithm",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "hyperfine",
+        "url": "https://github.com/sharkdp/hyperfine",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/sharkdp/hyperfine/pull/179",
+                "title": "Enable link-time optimization for release builds",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "egui",
+        "url": "https://github.com/emilk/egui",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/emilk/egui/pull/1093",
+                "title": "egui_glow: Optimize Painter::set_texture",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "fuels-rs",
+        "url": "https://github.com/FuelLabs/fuels-rs",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "diem",
+        "url": "https://github.com/diem/diem",
+        "num": 2,
+        "prs": [
+            {
+                "href": "https://github.com/diem/diem/pull/9613",
+                "title": "[api] optimizing openapi specificatoin for client code generation",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/diem/diem/pull/937",
+                "title": "[state-sync] Optimize weight distribution calculation for peer scoring",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "wasmer",
+        "url": "https://github.com/wasmerio/wasmer",
+        "num": 3,
+        "prs": [
+            {
+                "href": "https://github.com/wasmerio/wasmer/pull/3590",
+                "title": "Optimize getting byteLength in MemoryView::new",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/wasmerio/wasmer/pull/1968",
+                "title": "Remove interprocedural optimization passes.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/wasmerio/wasmer/pull/551",
+                "title": "Try a new list of optimization passes.",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "cube",
+        "url": "https://github.com/cube-js/cube",
+        "num": 7,
+        "prs": [
+            {
+                "href": "https://github.com/cube-js/cube/pull/7035",
+                "title": "feat(cubestore): Optimize CACHE SET on update (uneeded clone)",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/cube-js/cube/pull/5128",
+                "title": "feat(cubesql): Disable optimizers for analytics queries",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/cube-js/cube/pull/4894",
+                "title": "fix: Cache allDefinitions Object.assign invocations to optimize highl\u2026",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/cube-js/cube/pull/4678",
+                "title": "chore(jdbc-driver) testConnection method optimization",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/cube-js/cube/pull/3624",
+                "title": "docs(caching): improve copy for Pre-Aggregation Build Optimizations",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/cube-js/cube/pull/2776",
+                "title": "fix: Optimize high load Cube Store serve track: do not use Redis while fetching pre-aggregation tables",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/cube-js/cube/pull/2268",
+                "title": "chore(cubestore): Update arrow to get hash aggregate optimization",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "RustPython",
+        "url": "https://github.com/RustPython/RustPython",
+        "num": 3,
+        "prs": [
+            {
+                "href": "https://github.com/RustPython/RustPython/pull/4480",
+                "title": "Minor lexer optimizations",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/RustPython/RustPython/pull/2461",
+                "title": "Optimize check_signals",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/RustPython/RustPython/pull/2460",
+                "title": "Optimize builtins/range",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "difftastic",
+        "url": "https://github.com/Wilfred/difftastic",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "spotify-tui",
+        "url": "https://github.com/Rigellute/spotify-tui",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "anki",
+        "url": "https://github.com/ankitects/anki",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "coreutils",
+        "url": "https://github.com/uutils/coreutils",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "mdBook",
+        "url": "https://github.com/rust-lang/mdBook",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "vector",
+        "url": "https://github.com/vectordotdev/vector",
+        "num": 3,
+        "prs": [
+            {
+                "href": "https://github.com/vectordotdev/vector/pull/11925",
+                "title": "enhancement(aws_sqs source): Optimize event send loop",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/vectordotdev/vector/pull/11767",
+                "title": "chore(vrl): Optimize VRL byte concatenation",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/vectordotdev/vector/pull/2380",
+                "title": "chore(platforms): Optimize binaries in test-stable CI to reduce binary sizes",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "dioxus",
+        "url": "https://github.com/DioxusLabs/dioxus",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "gitui",
+        "url": "https://github.com/extrawurst/gitui",
+        "num": 15,
+        "prs": [
+            {
+                "href": "https://github.com/extrawurst/gitui/pull/1817",
+                "title": "[ImgBot] Optimize images",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/extrawurst/gitui/pull/1302",
+                "title": "[ImgBot] Optimize images",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/extrawurst/gitui/pull/1003",
+                "title": "[ImgBot] Optimize images",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/extrawurst/gitui/pull/899",
+                "title": "[ImgBot] Optimize images",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/extrawurst/gitui/pull/873",
+                "title": "[ImgBot] Optimize images",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/extrawurst/gitui/pull/858",
+                "title": "[ImgBot] Optimize images",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/extrawurst/gitui/pull/744",
+                "title": "[ImgBot] Optimize images",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/extrawurst/gitui/pull/629",
+                "title": "[ImgBot] Optimize images",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/extrawurst/gitui/pull/621",
+                "title": "[ImgBot] Optimize images",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/extrawurst/gitui/pull/467",
+                "title": "[ImgBot] Optimize images",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/extrawurst/gitui/pull/348",
+                "title": "[ImgBot] Optimize images",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/extrawurst/gitui/pull/347",
+                "title": "[ImgBot] Optimize images",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/extrawurst/gitui/pull/290",
+                "title": "[ImgBot] Optimize images",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/extrawurst/gitui/pull/277",
+                "title": "[ImgBot] Optimize images",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/extrawurst/gitui/pull/201",
+                "title": "[ImgBot] Optimize images",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "zellij",
+        "url": "https://github.com/zellij-org/zellij",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/zellij-org/zellij/pull/2920",
+                "title": "optimize: update refresh prorcess for sysinfo to reduce cpu usage",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "just",
+        "url": "https://github.com/casey/just",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "qdrant",
+        "url": "https://github.com/qdrant/qdrant",
+        "num": 5,
+        "prs": [
+            {
+                "href": "https://github.com/qdrant/qdrant/pull/2081",
+                "title": "Add black_box to prevent compiler from optimizing memmap reads",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/qdrant/qdrant/pull/936",
+                "title": "Do not panic if config.optimizer_config.max_optimization_threads is 0",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/qdrant/qdrant/pull/901",
+                "title": "remove default max optim. threads to enable switching off the optimizer",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/qdrant/qdrant/pull/899",
+                "title": "Updates comment for max_optimization_threads",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/qdrant/qdrant/pull/513",
+                "title": "optimize push in fixed priority queue",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "fnm",
+        "url": "https://github.com/Schniz/fnm",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "tikv",
+        "url": "https://github.com/tikv/tikv",
+        "num": 9,
+        "prs": [
+            {
+                "href": "https://github.com/tikv/tikv/pull/13420",
+                "title": "raftstore: optimize region destroy (#13384)",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/tikv/tikv/pull/13080",
+                "title": "log: optimize log filter",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/tikv/tikv/pull/11095",
+                "title": "tidb_query_expr: optimize memory in lower_utf8",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/tikv/tikv/pull/6093",
+                "title": "Fix the bug that IN() optimization is not taking effect",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/tikv/tikv/pull/5402",
+                "title": "optimize check snapshot range debug logging",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/tikv/tikv/pull/2671",
+                "title": "Enable Link Time Optimization",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/tikv/tikv/pull/2549",
+                "title": "update rocksdb that with optimized ingesting sst",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/tikv/tikv/pull/2293",
+                "title": "copr/expr: optimize like",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/tikv/tikv/pull/1864",
+                "title": "optimize raft log entry fetch",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "tree-sitter",
+        "url": "https://github.com/tree-sitter/tree-sitter",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "carbonyl",
+        "url": "https://github.com/fathyb/carbonyl",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "navi",
+        "url": "https://github.com/denisidoro/navi",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "wasmtime",
+        "url": "https://github.com/bytecodealliance/wasmtime",
+        "num": 19,
+        "prs": [
+            {
+                "href": "https://github.com/bytecodealliance/wasmtime/pull/6971",
+                "title": "Optimize list<u8> lifting and lowering",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/bytecodealliance/wasmtime/pull/6167",
+                "title": "Cranelift: remove non-egraphs optimization pipeline and use_egraphs option.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/bytecodealliance/wasmtime/pull/6122",
+                "title": "cranelift::codegen::Context::optimize(): reduce verbosity of \"egraph stats\" traces",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/bytecodealliance/wasmtime/pull/5998",
+                "title": "cranelift: Fuzz mid-end optimizations",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/bytecodealliance/wasmtime/pull/5744",
+                "title": "Generalize and/or/xor optimizations",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/bytecodealliance/wasmtime/pull/5272",
+                "title": "Cranelift: Do not optimize heap bounds checking comparison in legalization",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/bytecodealliance/wasmtime/pull/4939",
+                "title": "Avoid quadratic behavior in can_optimize_var_lookup",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/bytecodealliance/wasmtime/pull/4937",
+                "title": "Revert \"Memoize can_optimize_var_lookup (#4924)\"",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/bytecodealliance/wasmtime/pull/4924",
+                "title": "Memoize can_optimize_var_lookup",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/bytecodealliance/wasmtime/pull/4536",
+                "title": "cranelift-frontend: Reuse visited block sets in SSABuilder::can_optimize_var_lookup",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/bytecodealliance/wasmtime/pull/2940",
+                "title": "Optimize codegen for SecondaryMap indexing",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/bytecodealliance/wasmtime/pull/2613",
+                "title": "Optimize EntityList::extend and add EntityList::from_iter",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/bytecodealliance/wasmtime/pull/2458",
+                "title": "Optimize access to interpreter frame slots",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/bytecodealliance/wasmtime/pull/2364",
+                "title": "peepmatic: Make the test-we-can-get-and-rebuild peephole optimizers test work on arm64",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/bytecodealliance/wasmtime/pull/2311",
+                "title": "CI: fix rebuilding peepmatic peephole optimizers",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/bytecodealliance/wasmtime/pull/2243",
+                "title": "optimize get_wasmtime_signature",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/bytecodealliance/wasmtime/pull/880",
+                "title": "Don't spend build time optimizing build-time-only crates",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/bytecodealliance/wasmtime/pull/443",
+                "title": "optimize memory.grow 0",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/bytecodealliance/wasmtime/pull/323",
+                "title": "wasm2obj: add --optimize command line option",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "book",
+        "url": "https://github.com/rust-lang/book",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "axum",
+        "url": "https://github.com/tokio-rs/axum",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "czkawka",
+        "url": "https://github.com/qarmin/czkawka",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/qarmin/czkawka/pull/528",
+                "title": "Optimize a little image compare algorithm",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "rust-analyzer",
+        "url": "https://github.com/rust-lang/rust-analyzer",
+        "num": 7,
+        "prs": [
+            {
+                "href": "https://github.com/rust-lang/rust-analyzer/pull/15323",
+                "title": "internal: optimize DepKindInfo -> DepKind conversion",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust-analyzer/pull/10467",
+                "title": "internal: Optimize CodeLens for references/impls",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust-analyzer/pull/5824",
+                "title": "Optimize reference search",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust-analyzer/pull/5180",
+                "title": "Disable optimizations for tracing-attributes",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust-analyzer/pull/5083",
+                "title": "Micro-optimize lookahead in composite tokens",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust-analyzer/pull/2861",
+                "title": "Micro-optimize type hints to avoid allocations",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust-analyzer/pull/1576",
+                "title": "don't optimize on CI, it isn't faster",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "hyper",
+        "url": "https://github.com/hyperium/hyper",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "tabby",
+        "url": "https://github.com/TabbyML/tabby",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "leptos",
+        "url": "https://github.com/leptos-rs/leptos",
+        "num": 2,
+        "prs": [
+            {
+                "href": "https://github.com/leptos-rs/leptos/pull/809",
+                "title": "Optimize memory usage of update methods",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/leptos-rs/leptos/pull/381",
+                "title": "(micro optimization) cloning is not needed here",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "zoxide",
+        "url": "https://github.com/ajeetdsouza/zoxide",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "lemmy",
+        "url": "https://github.com/LemmyNet/lemmy",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/LemmyNet/lemmy/pull/2802",
+                "title": "Fix & Optimize CI config",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "clap",
+        "url": "https://github.com/clap-rs/clap",
+        "num": 2,
+        "prs": [
+            {
+                "href": "https://github.com/clap-rs/clap/pull/3739",
+                "title": "fix(parser): Use optimized bool value parser",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/clap-rs/clap/pull/2363",
+                "title": "Optimize common case of space padding",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "static-analysis",
+        "url": "https://github.com/analysis-tools-dev/static-analysis",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "sniffnet",
+        "url": "https://github.com/GyulyVGC/sniffnet",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "atuin",
+        "url": "https://github.com/atuinsh/atuin",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/atuinsh/atuin/pull/101",
+                "title": "Increase number of optimizations on release builds.",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "universal-android-debloater",
+        "url": "https://github.com/0x192/universal-android-debloater",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "rust-raspberrypi-OS-tutorials",
+        "url": "https://github.com/rust-embedded/rust-raspberrypi-OS-tutorials",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "zola",
+        "url": "https://github.com/getzola/zola",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "diesel",
+        "url": "https://github.com/diesel-rs/diesel",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "cargo",
+        "url": "https://github.com/rust-lang/cargo",
+        "num": 6,
+        "prs": [
+            {
+                "href": "https://github.com/rust-lang/cargo/pull/9132",
+                "title": "[BETA] Revert \"Slightly optimize cargo vendor\"",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/cargo/pull/8937",
+                "title": "Slightly optimize cargo vendor",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/cargo/pull/2454",
+                "title": "Globally optimize traversal in resolve",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/cargo/pull/2047",
+                "title": "Fix the usage of CFG_xxxABLE_OPTIMIZE variables in Makefiles",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/cargo/pull/1232",
+                "title": "Optimize stack usage of activate_deps slightly",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/cargo/pull/308",
+                "title": "Fix distcheck with --enable-optimize",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "lsd",
+        "url": "https://github.com/lsd-rs/lsd",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "py-spy",
+        "url": "https://github.com/benfred/py-spy",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "RustScan",
+        "url": "https://github.com/RustScan/RustScan",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "wezterm",
+        "url": "https://github.com/wez/wezterm",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "neovide",
+        "url": "https://github.com/neovide/neovide",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "tui-rs",
+        "url": "https://github.com/fdehau/tui-rs",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "solana",
+        "url": "https://github.com/solana-labs/solana",
+        "num": 24,
+        "prs": [
+            {
+                "href": "https://github.com/solana-labs/solana/pull/33839",
+                "title": "Optimize account hash CumulativeOffset index from vec to 2-element array",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/29287",
+                "title": "rpc: fix possible panics in optimize_filters (backport #29146)",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/29146",
+                "title": "rpc: fix possible panics in optimize_filters",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/27686",
+                "title": "Optimize get_slots_since() using the batched version of multi_get()",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/27277",
+                "title": "clean optimization for store count",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/26004",
+                "title": "Optimize stake accounts store",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/24924",
+                "title": "Optimize connection cache eviction logic (backport #24911)",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/24911",
+                "title": "Optimize connection cache eviction logic",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/24641",
+                "title": "Check insert optimization for bank_forks",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/22982",
+                "title": "Optimize batching of transactions during replay for parallel processing (backport #22917)",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/22975",
+                "title": "Small optimization",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/22917",
+                "title": "Optimize batching of transactions during replay for parallel processing",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/21555",
+                "title": "Avoid using unavailable udp_socket optimizations on iOS targets",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/21358",
+                "title": "Proposal for RocksDB Compaction optimized for Solana BlockStore",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/21209",
+                "title": "hashcalc eliminate zeros optimizations",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/21175",
+                "title": "hashcalc eliminate zeros optimizations",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/21027",
+                "title": "optimize get_accounts_delta_hash",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/20849",
+                "title": "Optimize test_recovery_with_expanded_coding_shreds",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/20327",
+                "title": "AcctIdx: optimize should_remove_from_mem",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/7593",
+                "title": "Optimize lock_accounts mutex use",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/7477",
+                "title": "Optimize bank_forks critical section",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/6250",
+                "title": "Retransmit stage optimization, don't copy packets",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/582",
+                "title": "Optimized start_nodes script to speed up GCE nodes start time",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/solana-labs/solana/pull/571",
+                "title": "Optimize process_ledger()",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "Infinite-Storage-Glitch",
+        "url": "https://github.com/DvorakDwarf/Infinite-Storage-Glitch",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "slint",
+        "url": "https://github.com/slint-ui/slint",
+        "num": 4,
+        "prs": [
+            {
+                "href": "https://github.com/slint-ui/slint/pull/3968",
+                "title": "Also test to-float() with empty strings that aren't optimized out",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/slint-ui/slint/pull/3954",
+                "title": "swrenderer: Optimize image rendering",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/slint-ui/slint/pull/1038",
+                "title": "MCU renderer: optimize the line processing step",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/slint-ui/slint/pull/530",
+                "title": "Try to optimize CI cache",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "sqlx",
+        "url": "https://github.com/launchbadge/sqlx",
+        "num": 0,
+        "prs": []
+    },
+    {
+        "name": "neon",
+        "url": "https://github.com/neondatabase/neon",
+        "num": 1,
+        "prs": [
+            {
+                "href": "https://github.com/neondatabase/neon/pull/2074",
+                "title": "Enable basic optimizations even in 'dev' builds.",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "rust-clippy",
+        "url": "https://github.com/rust-lang/rust-clippy",
+        "num": 2,
+        "prs": [
+            {
+                "href": "https://github.com/rust-lang/rust-clippy/pull/10533",
+                "title": "Significantly optimize significant_drop_tightening",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/rust-lang/rust-clippy/pull/8414",
+                "title": "Optimize redundant_clone",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "candle",
+        "url": "https://github.com/huggingface/candle",
+        "num": 7,
+        "prs": [
+            {
+                "href": "https://github.com/huggingface/candle/pull/687",
+                "title": "Set the learning rate in the nn optimizers.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/huggingface/candle/pull/644",
+                "title": "Optimize the conv2d transpose cpu kernel.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/huggingface/candle/pull/454",
+                "title": "Add a basic optimizer example.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/huggingface/candle/pull/396",
+                "title": "Optimize the cpu conv2d kernel",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/huggingface/candle/pull/197",
+                "title": "Optimize the sum operator cpu kernel to handle more dims.",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/huggingface/candle/pull/195",
+                "title": "Add an optimized case when performing the softmax over the last dimen\u2026",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/huggingface/candle/pull/192",
+                "title": "Optimize the sum for the contiguous case.",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "pyo3",
+        "url": "https://github.com/PyO3/pyo3",
+        "num": 2,
+        "prs": [
+            {
+                "href": "https://github.com/PyO3/pyo3/pull/3250",
+                "title": "Two minor pool optimizations",
+                "files": 1
+            },
+            {
+                "href": "https://github.com/PyO3/pyo3/pull/10",
+                "title": "Optimize Python.run_code",
+                "files": 1
+            }
+        ]
+    },
+    {
+        "name": "xsv",
+        "url": "https://github.com/BurntSushi/xsv",
+        "num": 0,
+        "prs": []
+    }
+]
