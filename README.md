@@ -8,7 +8,8 @@ The automated detection tool is implemented as a module of **RAPx** – a static
 
 #### Source Code
 
-Core implementation: **`./tool/`**
+Core implementation: **`./RAPx/`**
+Use `git submodule update --init --recursive` to get the source code.
 
 #### Installation
 
@@ -19,7 +20,7 @@ Core implementation: **`./tool/`**
    ./install.sh
    ```
    
-> Full installation guide: `./tool/README.md`
+> Full installation guide: `./RAPx/README.md`
 
 #### Usage
 
